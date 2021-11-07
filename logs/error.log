@@ -1,53 +1,13 @@
-[31merror[39m  | Oct-31-2021 14:17:36 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:26:13 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:26:30 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:26:44 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:26:45 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:26:46 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:26:48 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:26:50 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:26:50 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:26:54 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:26:54 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:27:31 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:27:31 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:27:43 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:27:43 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:13 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:13 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:28 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:28 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:28 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:31 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:31 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:33 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:33 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:33 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:35 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:35 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:37 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:37 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:37 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:41 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:41 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:41 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:44 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:44 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:28:44 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:29:12 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:29:12 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:29:12 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:29:16 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:29:16 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:29:16 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:51:25 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:52:28 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 14:52:34 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 15:49:04 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
-[31merror[39m  | Oct-31-2021 16:12:19 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8088
-[31merror[39m  | Oct-31-2021 16:18:16 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8088
-[31merror[39m  | Oct-31-2021 16:24:32 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8088
-[31merror[39m  | Oct-31-2021 16:25:48 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8088
-[31merror[39m  | Oct-31-2021 16:25:52 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8088
-[31merror[39m  | Oct-31-2021 16:25:59 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8088
-[31merror[39m  | Oct-31-2021 16:26:08 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8088
+[31merror[39m  | Nov-07-2021 13:57:58 | Error en el servidor: Error: bind EADDRINUSE null:8088
+[31merror[39m  | Nov-07-2021 13:57:58 | Error en el servidor: Error: bind EADDRINUSE null:8088
+[31merror[39m  | Nov-07-2021 13:57:58 | Error en el servidor: Error: bind EADDRINUSE null:8088
+[31merror[39m  | Nov-07-2021 13:57:58 | Error en el servidor: Error: bind EADDRINUSE null:8088
+[31merror[39m  | Nov-07-2021 13:58:45 | Error en el servidor: Error: bind EADDRINUSE null:8088
+[31merror[39m  | Nov-07-2021 13:58:45 | Error en el servidor: Error: bind EADDRINUSE null:8088
+[31merror[39m  | Nov-07-2021 13:58:46 | Error en el servidor: Error: bind EADDRINUSE null:8088
+[31merror[39m  | Nov-07-2021 13:58:46 | Error en el servidor: Error: bind EADDRINUSE null:8088
+[31merror[39m  | Nov-07-2021 18:06:31 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8081
+[31merror[39m  | Nov-07-2021 18:06:31 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8081
+[31merror[39m  | Nov-07-2021 18:06:31 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8081
+[31merror[39m  | Nov-07-2021 18:12:22 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
+[31merror[39m  | Nov-07-2021 18:12:54 | Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080

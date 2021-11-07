@@ -29,7 +29,6 @@ router.use('/info', (req: Request, res: Response) => {
     processId: process.pid,
     folder: process.cwd(),
   };
-
   res.json({ data: info, pid: process.pid });
 });
 

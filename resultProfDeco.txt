@@ -1,0 +1,176 @@
+Statistical profiling result from prof-v8.log, (13293 ticks, 2 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+  13027   98.0%          C:\Windows\SYSTEM32\ntdll.dll
+    242    1.8%          C:\Program Files\nodejs\node.exe
+      1    0.0%          C:\Windows\System32\KERNELBASE.dll
+      1    0.0%          C:\Windows\System32\KERNEL32.DLL
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+      8    0.1%   36.4%  LazyCompile: *isDefined C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\args\lib\utils.js:396:12
+      6    0.0%   27.3%  LazyCompile: *getOptions C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\args\lib\utils.js:108:13
+      2    0.0%    9.1%  RegExp: ; *([!#$%&'*+.^_`|~0-9A-Za-z-]+) *= *("(?:[\u000b\u0020\u0021\u0023-\u005b\u005d-\u007e\u0080-\u00ff]|\\[\u000b\u0020-\u00ff])*"|[!#$%&'*+.^_`|~0-9A-Za-z-]+) *
+      1    0.0%    4.5%  RegExp: ^\/info\/?(?=\/|$)
+      1    0.0%    4.5%  RegExp: ^[!#$%&'*+\-.^_`|~0-9A-Za-z]+$
+      1    0.0%    4.5%  LazyCompile: *resolve path.js:153:10
+      1    0.0%    4.5%  LazyCompile: *processTicksAndRejections internal/process/task_queues.js:67:35
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+     20    0.2%   90.9%  JavaScript
+      0    0.0%    0.0%  C++
+     19    0.1%   86.4%  GC
+  13271   99.8%          Shared libraries
+      2    0.0%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+  13027   98.0%  C:\Windows\SYSTEM32\ntdll.dll
+
+    242    1.8%  C:\Program Files\nodejs\node.exe
+    126   52.1%    C:\Program Files\nodejs\node.exe
+     16   12.7%      LazyCompile: ~wrapSafe internal/modules/cjs/loader.js:973:18
+     16  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1026:37
+     16  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1081:37
+     16  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:925:33
+     10    7.9%      LazyCompile: ~realpathSync fs.js:1718:22
+     10  100.0%        LazyCompile: ~toRealPath internal/modules/cjs/loader.js:360:20
+     10  100.0%          LazyCompile: ~tryFile internal/modules/cjs/loader.js:351:17
+      8   80.0%            LazyCompile: ~tryExtensions internal/modules/cjs/loader.js:367:23
+      2   20.0%            LazyCompile: ~tryPackage internal/modules/cjs/loader.js:305:20
+      7    5.6%      LazyCompile: ~writevGeneric internal/stream_base_commons.js:118:23
+      7  100.0%        LazyCompile: ~Socket._writeGeneric net.js:761:42
+      7  100.0%          LazyCompile: ~Socket._writev net.js:793:36
+      7  100.0%            LazyCompile: ~doWrite internal/streams/writable.js:367:17
+      7    5.6%      LazyCompile: ~compression C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\compression\index.js:59:31
+      6   85.7%        LazyCompile: ~handle C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\layer.js:86:49
+      5   83.3%          LazyCompile: *next C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:176:16
+      5  100.0%            LazyCompile: ~expressInit C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\middleware\init.js:29:30
+      1   16.7%          LazyCompile: ~trim_prefix C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:288:23
+      1  100.0%            LazyCompile: ~<anonymous> C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:275:64
+      1   14.3%        LazyCompile: *handle C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\layer.js:86:49
+      1  100.0%          LazyCompile: ~trim_prefix C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:288:23
+      1  100.0%            LazyCompile: ~<anonymous> C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:275:64
+      6    4.8%      LazyCompile: ~stat internal/modules/cjs/loader.js:145:14
+      5   83.3%        LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:461:28
+      5  100.0%          LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:804:35
+      5  100.0%            LazyCompile: ~Module._load internal/modules/cjs/loader.js:724:24
+      1   16.7%        LazyCompile: ~tryFile internal/modules/cjs/loader.js:351:17
+      1  100.0%          LazyCompile: ~tryExtensions internal/modules/cjs/loader.js:367:23
+      1  100.0%            LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:461:28
+      5    4.0%      LazyCompile: ~initialize C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\passport\lib\middleware\initialize.js:51:29
+      3   60.0%        LazyCompile: ~handle C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\layer.js:86:49
+      3  100.0%          LazyCompile: *next C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:176:16
+      3  100.0%            LazyCompile: ~session C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express-session\index.js:179:26
+      2   40.0%        LazyCompile: *handle C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\layer.js:86:49
+      2  100.0%          LazyCompile: *next C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:176:16
+      2  100.0%            LazyCompile: ~session C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express-session\index.js:179:26
+      5    4.0%      LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:273:27
+      3   60.0%        LazyCompile: ~nativeModuleRequire internal/bootstrap/loaders.js:306:29
+      1   33.3%          Eval: ~<anonymous> internal/source_map/source_map_cache.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:273:27
+      1   33.3%          Eval: ~<anonymous> internal/bootstrap/node.js:1:1
+      1   33.3%          Eval: ~<anonymous> crypto.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:273:27
+      2   40.0%        LazyCompile: ~compileForPublicLoader internal/bootstrap/loaders.js:220:25
+      2  100.0%          LazyCompile: ~loadNativeModule internal/modules/cjs/helpers.js:35:26
+      2  100.0%            LazyCompile: ~Module._load internal/modules/cjs/loader.js:724:24
+      4    3.2%      LazyCompile: ~store.generate C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express-session\index.js:158:28
+      4  100.0%        LazyCompile: ~generate C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express-session\index.js:363:22
+      4  100.0%          LazyCompile: ~session C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express-session\index.js:179:26
+      3   75.0%            LazyCompile: ~handle C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\layer.js:86:49
+      1   25.0%            LazyCompile: *handle C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\layer.js:86:49
+      3    2.4%      LazyCompile: ~session C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express-session\index.js:179:26
+      2   66.7%        LazyCompile: ~handle C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\layer.js:86:49
+      2  100.0%          LazyCompile: *next C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:176:16
+      2  100.0%            LazyCompile: ~error C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\serve-static\index.js:115:39
+      1   33.3%        LazyCompile: *handle C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\layer.js:86:49
+      1  100.0%          LazyCompile: *next C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:176:16
+      1  100.0%            LazyCompile: ~error C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\serve-static\index.js:115:39
+      3    2.4%      LazyCompile: ~onHeaders C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\on-headers\index.js:56:20
+      2   66.7%        LazyCompile: ~compression C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\compression\index.js:59:31
+      2  100.0%          LazyCompile: ~handle C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\layer.js:86:49
+      2  100.0%            LazyCompile: *next C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:176:16
+      1   33.3%        LazyCompile: ~session C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express-session\index.js:179:26
+      1  100.0%          LazyCompile: *handle C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\layer.js:86:49
+      1  100.0%            LazyCompile: *next C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:176:16
+      3    2.4%      LazyCompile: ~hash C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express-session\index.js:596:14
+      3  100.0%        LazyCompile: ~isModified C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express-session\index.js:425:24
+      2   66.7%          LazyCompile: ~shouldSave C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express-session\index.js:440:24
+      2  100.0%            LazyCompile: *send C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\response.js:107:25
+      1   33.3%          LazyCompile: ~shouldSetCookie C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express-session\index.js:464:29
+      1  100.0%            LazyCompile: ~<anonymous> C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express-session\index.js:220:28
+      3    2.4%      LazyCompile: ~Hash internal/crypto/hash.js:37:14
+      3  100.0%        LazyCompile: ~createHash crypto.js:115:20
+      3  100.0%          LazyCompile: ~hash C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express-session\index.js:596:14
+      3  100.0%            LazyCompile: ~generate C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express-session\index.js:363:22
+      2    1.6%      LazyCompile: ~writeHead _http_server.js:254:19
+      2  100.0%        LazyCompile: ~writeHead C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\on-headers\index.js:28:29
+      2  100.0%          LazyCompile: ~writeHead C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\on-headers\index.js:28:29
+      2  100.0%            LazyCompile: ~_implicitHeader _http_server.js:249:68
+      2    1.6%      LazyCompile: ~write buffer.js:604:12
+      2  100.0%        LazyCompile: ~fromStringFast buffer.js:422:24
+      2  100.0%          LazyCompile: ~fromString buffer.js:441:20
+      2  100.0%            LazyCompile: ~from buffer.js:303:28
+      2    1.6%      LazyCompile: ~setWriteHeadHeaders C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\on-headers\index.js:105:30
+      2  100.0%        LazyCompile: ~writeHead C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\on-headers\index.js:28:29
+      2  100.0%          LazyCompile: ~_implicitHeader _http_server.js:249:68
+      2  100.0%            LazyCompile: ~end C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\compression\index.js:92:28
+      2    1.6%      LazyCompile: ~readSync fs.js:577:18
+      2  100.0%        LazyCompile: ~tryReadSync fs.js:379:21
+      2  100.0%          LazyCompile: ~readFileSync fs.js:391:22
+      2  100.0%            LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1081:37
+      2    1.6%      LazyCompile: ~readPackage internal/modules/cjs/loader.js:257:21
+      1   50.0%        LazyCompile: ~resolveExports internal/modules/cjs/loader.js:439:24
+      1  100.0%          LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:461:28
+      1  100.0%            LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:804:35
+      1   50.0%        LazyCompile: *Module._findPath internal/modules/cjs/loader.js:461:28
+      1  100.0%          LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:804:35
+      1  100.0%            LazyCompile: ~Module._load internal/modules/cjs/loader.js:724:24
+      2    1.6%      LazyCompile: ~parse C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\content-type\index.js:106:16
+      2  100.0%        LazyCompile: ~setCharset C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\utils.js:250:41
+      1   50.0%          LazyCompile: ~send C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\response.js:107:25
+      1  100.0%            LazyCompile: ~json C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\response.js:239:25
+      1   50.0%          LazyCompile: *send C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\response.js:107:25
+      1  100.0%            LazyCompile: ~json C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\response.js:239:25
+      2    1.6%      LazyCompile: ~originalurl C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\parseurl\index.js:65:22
+      2  100.0%        LazyCompile: ~serveStatic C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\serve-static\index.js:72:31
+      1   50.0%          LazyCompile: ~handle C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\layer.js:86:49
+      1  100.0%            LazyCompile: *next C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:176:16
+      1   50.0%          LazyCompile: *handle C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\layer.js:86:49
+      1  100.0%            LazyCompile: *next C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:176:16
+      2    1.6%      LazyCompile: ~build C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\args\node_modules\chalk\index.js:119:15
+      2  100.0%        LazyCompile: ~get C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\args\node_modules\chalk\index.js:59:6
+      2  100.0%          LazyCompile: ~module.exports C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\args\lib\parse.js:6:26
+      2  100.0%            LazyCompile: ~<anonymous> C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\dist\routes\index.js:23:21
+      2    1.6%      LazyCompile: ~_send _http_outgoing.js:307:49
+      2  100.0%        LazyCompile: ~write_ _http_outgoing.js:704:16
+      2  100.0%          LazyCompile: ~end _http_outgoing.js:795:45
+      2  100.0%            LazyCompile: ~end C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\compression\index.js:92:28
+      2    1.6%      LazyCompile: *Module._findPath internal/modules/cjs/loader.js:461:28
+      2  100.0%        LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:804:35
+      2  100.0%          LazyCompile: ~Module._load internal/modules/cjs/loader.js:724:24
+      2  100.0%            LazyCompile: ~Module.require internal/modules/cjs/loader.js:953:36
+      3    1.2%    LazyCompile: ~module.exports C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\args\lib\parse.js:6:26
+      3  100.0%      LazyCompile: ~<anonymous> C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\dist\routes\index.js:23:21
+      2   66.7%        LazyCompile: ~handle C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\layer.js:86:49
+      1   50.0%          LazyCompile: ~trim_prefix C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:288:23
+      1  100.0%            LazyCompile: ~<anonymous> C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:275:64
+      1   50.0%          LazyCompile: *next C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:176:16
+      1  100.0%            LazyCompile: ~<anonymous> C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:629:19
+      1   33.3%        LazyCompile: *handle C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\layer.js:86:49
+      1  100.0%          LazyCompile: ~trim_prefix C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:288:23
+      1  100.0%            LazyCompile: ~<anonymous> C:\Users\Stefy\Desktop\Coderhouse\32-Entregable\node_modules\express\lib\router\index.js:275:64
+
