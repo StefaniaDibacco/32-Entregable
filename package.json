@@ -11,10 +11,10 @@
     "prod-pm2": "npm run build && pm2 start ecosystem.config.js -w",
     "prod-pm2:fork": "npm run build && pm2 start ecosystem.config.js --only app-fork --no-daemon -w",
     "prod-pm2:cluster": "npm run build && pm2 start ecosystem.config.js --only app-cluster --no-daemon -w",
-    "artillery:fork": "artillery quick --count 50 -n 20 http://localhost:8088/api/info",
+    "artillery:fork": "artillery quick --count 50 -n 20 http://localhost:8081/api/info",
+    "artillery:cluster": "artillery quick --count 50 -n 20 http://localhost:8082/api/info",
     "auto-0x": "0x dist/index.js",
     "testB": "node dist/index.js",
-    "artillery:cluster": "artillery quick --count 50 -n 20 http://localhost:8082/api/info",
     "build": "tsc"
   },
   "repository": {
